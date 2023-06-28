@@ -5,7 +5,6 @@
 
 //Write filterByGenre(books, genre) below here:
 
-
 const books = [
   {
     title: "The Da Vinci Code",
@@ -64,4 +63,12 @@ const books = [
   },
 ];
 
+function filterByGenre(books, genre){
 
+  let filteredArray = books.filter(function(book){
+    return book.genre === genre;
+  });
+
+  return filteredArray
+  //console.log(filteredArray);
+};
