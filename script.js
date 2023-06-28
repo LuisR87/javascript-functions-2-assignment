@@ -70,5 +70,4 @@ function filterByGenre(books, genre){
   });
 
   return filteredArray
-  //console.log(filteredArray);
 };
